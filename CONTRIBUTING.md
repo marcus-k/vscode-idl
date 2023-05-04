@@ -72,7 +72,7 @@ For writing tests, see [README.md](./client/src/test/vulcan/README.md).
 
 Notes:
 
-- Code coverage is generated in the `coverage` folder of the `client` directory and this is not comitted to github.
+- Code coverage is generated in the `coverage` folder of the `client` directory and this is not committed to github.
 
 - A file, `idl.extension.host.log` will be written to disk in the `client` folder with the complete output from the IDL Extension Host (not the language server). This way, if IDL hangs at all, you will have all you need to try and debug why it was hanging. Not pretty, but it gets the job done :)
 
