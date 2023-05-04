@@ -36,7 +36,6 @@
     "watch-i18n": "cd make-i18n && npm start",
     "watch-vscode-test": "npm run make-i18n && cd client && npm run watch"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^13.1.1",
     "all-contributors-cli": "^4.11.1",
