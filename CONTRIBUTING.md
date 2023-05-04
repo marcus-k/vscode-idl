@@ -153,7 +153,7 @@ Helpful hints for debugging syntax highlighting and tokenization:
     vsce package
     ```
 
-    When package is executed, the `vsce:prepublish` script in the main `package.json` file is automatically called. This script will build the typescript and execute unit tests. Once finished, all of the items in the repository aare collected and made into a `.vsix` file. You can then test this out locally and, once you verify it works correctly, then you can go to the next step.
+    When package is executed, the `vsce:prepublish` script in the main `package.json` file is automatically called. This script will build the typescript and execute unit tests. Once finished, all of the items in the repository are collected and made into a `.vsix` file. You can then test this out locally and, once you verify it works correctly, then you can go to the next step.
 
 3. Document changes in **CHANGELOG.md**
 
