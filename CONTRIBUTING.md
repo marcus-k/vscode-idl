@@ -17,7 +17,7 @@ For questions, issues, or concerns you can reach out to Zach Norman at zacharyan
 
 2. (For publishing) Make sure `vsce` is installed globally. Use `npm i -g vsce`.
 
-3. Additionally, this uses the [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension for maintaining a consistent syntax for all files. This is requried for development.
+3. Additionally, this uses the [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension for maintaining a consistent syntax for all files. This is required for development.
 
 4. For consistent coding styles, you must also install [TSLnt](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin). There is a pre-determined set of rules that makes sure all contributed code looks similar and comes from Angular's code guidelines.
 

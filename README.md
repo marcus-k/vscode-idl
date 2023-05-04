@@ -18,7 +18,7 @@ For a full list of changes, see [CHANGELOG.md](./CHANGELOG.md) for lots of detai
 
 ## Features
 
-* Terminal commads. Ability to run IDL from a terminal window with commands except for the ability to debug.
+* Terminal commands. Ability to run IDL from a terminal window with commands except for the ability to debug.
 
 * Custom IDL color themes. If you are feeling retro, then the IDL Light theme is for you! It replicates the IDL Workbench theme colors.
 
@@ -28,7 +28,7 @@ For a full list of changes, see [CHANGELOG.md](./CHANGELOG.md) for lots of detai
 
 * Function/procedure/variable completion for user defined routines in workspaces and opened files
 
-* Hover help for core ENVI and IDL routines, includng links to the official documentation
+* Hover help for core ENVI and IDL routines, including links to the official documentation
 
 * Go-to definition for functions, procedures, and methods from user defined routines
 
@@ -101,7 +101,7 @@ Goals for features to add (not necessarily in this order):
 
     This includes being able to access properties which for user-defined objects, means we need to know the object source, inheritance, and the properties along the chain.
 
-- Linting would be nice - mostly for code formatting more than rule following lilke eslint or tslint.
+- Linting would be nice - mostly for code formatting more than rule following like eslint or tslint.
 
 
 
