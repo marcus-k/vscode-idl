@@ -55,8 +55,14 @@ export function startIDLTerminal(): boolean {
   // make sure we found the directory
   newTerminal = vscode.window.createTerminal({
     shellPath: platform() === 'win32' ? 'cmd.exe' : null,
-    env: useEnv
+    env: useEnv,
+    name: "IDL",
   });
+
+  if (platform() === 'win32') {
+    let driveLetter = idlConfiguration.idlDir.split(':')[0];
+    newTerminal.sendText(driveLetter + ':');
+  }
   newTerminal.sendText('cd ' + idlConfiguration.idlDir + ' && idl');
   newTerminal.show();
 
