@@ -13,6 +13,8 @@ For questions, issues, or concerns you can reach out to Zach Norman at zacharyan
 
 ## Setup
 
+Node.js version 16 is required to avoid the [ERR_OSSL_EVP_UNSUPPORTED](https://stackoverflow.com/questions/75959563/node-js-err-ossl-evp-unsupported-error-when-running-npm-run-start) error in higher versions. 
+
 1. From the main folder, run `npm install`. This will install the dependencies for the client and the server
 
 2. (For publishing) Make sure `vsce` is installed globally. Use `npm i -g vsce`.
