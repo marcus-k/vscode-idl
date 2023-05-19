@@ -64,7 +64,7 @@ export class IDLTerminal {
           return false;
         }
         await code.save();
-        idl.sendText(`@${cleanPath(code.uri.fsPath)}`);
+        idl.sendText(`@'${cleanPath(code.uri.fsPath)}'`);
         break;
       case 'Stop':
         idl.sendText('\u0003', false);
