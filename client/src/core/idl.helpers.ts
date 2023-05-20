@@ -1,4 +1,5 @@
 import { platform } from 'os';
+import path = require('path');
 import * as vscode from 'vscode';
 import { idlConfiguration, idlTranslation } from '../extension';
 
@@ -60,10 +61,10 @@ export function startIDLTerminal(): boolean {
   });
 
   if (platform() === 'win32') {
-    const driveLetter = idlConfiguration.idlDir.split(':')[0];
-    newTerminal.sendText(driveLetter + ':');
+    newTerminal.sendText(`"${path.join(idlConfiguration.idlDir, 'idl.exe')}"`);
+  } else {
+    newTerminal.sendText(`"${path.join(idlConfiguration.idlDir, 'idl')}"`);
   }
-  newTerminal.sendText('cd ' + idlConfiguration.idlDir + ' && idl');
   newTerminal.show();
 
   return true;
